@@ -17,7 +17,6 @@ export const useFetchGifs = ( category ) => {
                     loading: false
                 });
             })
-
     }, [ category ])
         // useEffect(() => {
     //     getGifs( category )
